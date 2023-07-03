@@ -1,0 +1,51 @@
+p{
+    font-size: 16px;
+  }
+
+.home-header{
+    background-color: #EAC926;;
+}
+
+
+p.home-main-precio {
+    font-size: 18px;
+  }
+
+
+.home-main h3{
+    font-size: 16px;
+}
+
+.burger-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto 30px;
+    
+    background-color: #03264C;
+    width: 15vw;
+    height: 7vh;
+    border-radius: 17%;
+    color: white;
+}
+
+.home-header-nav{
+    margin-left: 15px;
+}
+
+.home-header-nav nav img{
+    
+    width: 45%;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+
+.home-header-nav nav p{
+ text-align: center;
+ font-size: 13px;
+}
+
+
