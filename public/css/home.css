@@ -3,10 +3,15 @@ p{
   }
 
 .home-header{
-    background-color: #EAC926;;
+    background-color: #EAC926;
 }
+.home-header-nav-lupa{
+    background-color: white;
+    margin-top: 1px;
+    width: 5%;
+    border: solid 1px;
 
-
+}
 p.home-main-precio {
     font-size: 18px;
   }
@@ -20,6 +25,8 @@ p.home-main-precio {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative; 
+    top: -10px; 
     margin: 15px auto 30px;
     
     background-color: #03264C;
@@ -47,5 +54,42 @@ p.home-main-precio {
  text-align: center;
  font-size: 13px;
 }
+/*Footer*/
 
+
+
+.home-footer-section{
+    
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.home-footer-section div{
+    margin-top: 60px;
+}
+
+.home-footer-section h4{
+    font-size: 1.1rem;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.home-footer-section p{
+    margin-top: 0;
+    color: gray;
+    font-size: 15px;
+    
+}
+
+.home-footer-section  div {
+    font-size: 40px;
+}
+
+.home-footer-pie{
+    font-size: 11px;
+    color: gray;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
 
