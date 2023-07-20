@@ -420,6 +420,9 @@ p.home-main-precio {
         display: none;
     }
 
+    .home-header-img{
+        height: 90px;
+    }
     /*main*/
     .home-main{
         padding: 0;
