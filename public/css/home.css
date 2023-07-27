@@ -145,11 +145,16 @@ display: flex;
    
 }
 
+.home-main section{
+    align-items: flex-start;
+}
+
 .home-main-article{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     padding-bottom: 15px;
+    
 }
 
 
@@ -175,23 +180,22 @@ display: flex;
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    align-items: flex-start;
     
 }
-
 .home-main-article-contenedor h3{
     color: gray;
-    padding-top: 30px ;
-    padding-bottom: 20px;
+   /* padding-top: 30px ;
+   padding-bottom: 20px;*/
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
 }
 
- 
-
- 
-
-
-.home-main-article h3{
-    display: none;
+.home-main-article-contenedor:hover h3 {
+    height: 40px;
 }
+
 
 
 .home-truck i{
@@ -202,14 +206,30 @@ display: flex;
     width: 30px;
     height: 30px;
     border: 1px solid #39b54a;
+    color: #39b54a;
     background-color: #fff;
     border-radius: 50%;
     position: absolute;
     right: 20px;
     top: -15px; 
-   
+    transition: all 0.5s ease;
 }
 
+.home-truck i:hover{
+    animation: rotate 1s;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(-90deg);
+    }
+    100%{
+        transform: rotate(-90deg);
+    }
+}
 
 p.home-main-precio {
     font-size: 18px; 
@@ -226,7 +246,9 @@ p.home-main-precio {
 
 /*Footer*/
 
-
+.home-footer{
+    background-color: white;
+}
 
 .home-footer-section{
     
@@ -326,15 +348,20 @@ p.home-main-precio {
 
   .home-main-article{
     margin: 0 0 5px 0px;
-    box-shadow: 0px 0px 10px  rgb(100, 100, 100);
+    box-shadow: none;
     width: 45%;
     padding: 0;
    
     flex-wrap: wrap;
     justify-content: space-between;
-     
+    
+    transition: box-shadow 0.s ease;
     
   }
+
+  .home-main-article:hover {
+    box-shadow: 0px 0px 15px rgb(150, 150, 150);
+}
 
   
 
@@ -358,13 +385,6 @@ p.home-main-precio {
     
 }
  
-   
-
-  .home-main-article h3{
-    display: flex;
-    font-size: 14px;
-}
-  /*footer*/
 }
 
 
@@ -445,4 +465,24 @@ p.home-main-precio {
       }
     
     /*footer*/
+
+    .home-footer{
+        
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        
+    }
+
+    .home-footer-section{
+        width: 30%;
+    }
+
+    .home-footer-pie{
+        width: 100%;
+        margin-left: 20px;
+    }
+   
+     
   }
