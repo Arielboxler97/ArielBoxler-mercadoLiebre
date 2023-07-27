@@ -1,0 +1,61 @@
+.login-main-container{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-main-container input::placeholder {
+    padding-left: 8px;
+}
+
+.login-main-username{
+    display: flex;
+    
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-main-username input{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px grey;
+    
+}
+
+
+.login-main-pass{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login-main-pass input{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px grey;
+    
+}
+
+.login-main-button{
+    background-color: #068FFF;
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px grey;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.login-main-button a{
+    color: white;
+}
