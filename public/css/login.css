@@ -19,9 +19,10 @@
 
 .login-main-username input{
     width: 70%;
-    height: 30px;
+    height: 35px;
     border-radius: 5px;
     border: solid 1px grey;
+    margin-left: 70px
     
 }
 
@@ -32,12 +33,13 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+    margin-left: 70px
 }
 
 
 .login-main-pass input{
     width: 70%;
-    height: 30px;
+    height: 35px;
     border-radius: 5px;
     border: solid 1px grey;
     
@@ -46,7 +48,7 @@
 .login-main-button{
     background-color: #068FFF;
     width: 70%;
-    height: 30px;
+    height: 35px;
     border-radius: 5px;
     border: solid 1px grey;
     
@@ -54,6 +56,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    margin-left: 70px
 }
 
 .login-main-button a{
